@@ -1,0 +1,32 @@
+Question : How does the inheritance allows you to reuse code in the program ?
+
+Answer : 
+let's understand this by an example
+#include<iostream>
+using namespace std;
+
+class vehicle{
+    string name;
+    int inr ;
+
+};
+
+class bmw : public vehicle{
+    //this inherited the class vehicle.
+
+};
+
+class rollsroyles : public vehicle{
+    //this is also inherited the class vehicle
+};
+
+int main()
+{
+    return 0;
+}
+
+As you see in the program class vehicle is the parent class of other classes 
+becouse all the other class are child or sub-class . in program we only defined vehicle
+class and the property of the vehicle class is accessible by the other classes. this way
+the inheritance make reusalabilty of the code.
+;

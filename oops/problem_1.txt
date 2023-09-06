@@ -1,0 +1,11 @@
+Question : what are the differences between the class and object? |
+Answer :                                                          |
+
+Class : class is a blue print for the object. this is logical entity. we can not
+create an object without creating a class. all properties of an objects defined in class.
+class define only one time for an object.
+
+object : objects are the physical entity. objects created with the help of the class.
+object can access many times in the program .
+
+upwords are the some difference between the class and object.

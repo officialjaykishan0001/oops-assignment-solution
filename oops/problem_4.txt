@@ -1,0 +1,51 @@
+Question : why we need constructor explain it and give an example ?
+
+Answer : 
+        we need constructor to assign some value to the variebles of the class.let we have 
+        a class and the variebles of this class are private then we are not able to assign 
+        some value to  the varieble from the main function in this condition the we use of 
+        constructor came out more importantly. constructor are defined inside the class 
+        but constructors are able to assign the value to the varieble which are private .
+        basicaly , constructor are the three types 
+        1.default constructor
+        2.parameterised constructor
+        3.copy constructor 
+now, lets see the costructor in the form of source code ,
+
+#include<iostream>
+using namespace std;
+
+class area{
+    int l;
+    int b;
+
+  publice :
+
+  area()//this is the default constructor
+  {
+    int l = 0;
+    int b = 0;
+  }  
+
+  area(int x,int x)//this the parameterised constructor
+  {
+    l = x;
+    b = y;
+  }
+/*
+  area(area &copy_object_name)//this is the copy constructor .
+  {
+    l = object_name.l;
+    b = object_name.b;
+  }*/
+};
+int main()
+{
+ 
+ return 0;
+}
+
+i hope you enjoyed it and gained some knowledge from it.
+
+this is jay kishan 
+signing of....

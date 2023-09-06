@@ -1,0 +1,39 @@
+Question : what are the benifit of using setter and getter methods to access the by 
+private instance variebles ?
+
+Answer : 
+        setter and getter are the functions of the class . that are used to assign and 
+        print the values of the variebles which are private in class . setter assigns the 
+        value to the varielbles and getter prints the value of the variebles on the screen .
+
+        below , the example of these two user defined function inside the class.
+
+    #include<iostream>
+    using namespace std;
+
+    class rectangle{
+        int l ;
+        int b;
+
+        public : 
+        void setter(int x,int y)//this is the setter function
+        {
+            l = x;
+            b = y ;
+
+        }
+
+        void getter() //this is the getter function
+        {
+          cout<<"l is : "<<l<<"\nb is : "<<(b)<<endl;
+        }
+    };
+    int main()
+    {
+        rectangle s;
+        s.setter(3,4) ; //calling the setter class function
+        s.getter();//calling the getter class function 
+
+        return 0;
+    }
+       
